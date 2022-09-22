@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Literarischer IKG Adventskalender</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Literarischer IKG Adventskalender</h1>
+
+    <div id="vignette"></div>
+
+    <img id="snow" src="https://media1.giphy.com/media/UTkht9eZ4Ot68/source.gif">
+
+    <div id="adventskranz">
+        <!--Quelle: https://pixabay.com/de/photos/kerzen-weihnachten-advent-1518932/-->
+        <img src="style/candles.jpg">
+
+        <button class="kerze" style="left: 36.5%; bottom: 20%;" onclick="playAudio(1, this)">
+            <span>Der kleine Flori und der Nikolaus</span>
+        </button>
+
+        <button class="kerze" style="left: 73%; bottom: 20%;" onclick="playAudio(4, this)">
+            <span>Simons Weihnachten</span>
+        </button>
+
+        <button class="kerze" style="left: 63%; bottom: 24%;" onclick="playAudio(3, this)">
+            <span>Das Geschenk von O</span>
+        </button>
+
+        <button class="kerze" style="left: 52%; bottom: 25%;" onclick="playAudio(2, this)">
+            <span>Was wir uns schenken</span>
+        </button>
+
+        <button class="kerze bonusGeschichte" style="left: 50%; bottom: 5%;" onclick="playAudio(5, this)">
+            <span>Die traurige Traurigkeit</span>
+        </button>
+    </div>
+    <audio></audio>
+</body>
+<script src="script.js"></script>
+
+</html>
